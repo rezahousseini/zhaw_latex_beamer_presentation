@@ -1,0 +1,50 @@
+\documentclass[german,mathserif]{beamer}
+%\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{epsfig}
+\usepackage{psfrag}
+\usepackage[T1]{fontenc}
+\usepackage[numbers]{natbib}
+\usepackage{multirow}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{mathptmx}
+\usepackage{helvet}
+\usepackage{varwidth}
+\usepackage{siunitx}
+\usepackage{standalone}
+\usetikzlibrary{arrows,matrix,trees,automata,shadows,fadings}
+\usetikzlibrary{shapes}
+\usetikzlibrary{decorations.markings,
+                decorations.text,
+                decorations.pathreplacing,
+                decorations.pathmorphing}
+\usetikzlibrary{spy}
+\usetikzlibrary{calc}
+\usetikzlibrary{positioning}
+\usetikzlibrary{chains,plotmarks}
+\usetikzlibrary{fit}
+
+\usetheme{ZHAW}
+
+\title[Short title]{Main title\\also multiline}
+\institute[The institute abbr.]{\includegraphics[height=2.5cm]{img/logo-zhaw.pdf}\\\vspace*{1em}\textit{The whole institute name}}
+\author[Author short]{The author name\\ {\tiny mymail@domain.ch}}
+\date{\today}
+
+\begin{document}
+  \begin{frame}[plain]
+    \titlepage
+  \end{frame}
+
+  \begin{frame}
+    \tableofcontents
+  \end{frame}
+	
+  \input{tex/somefile}
+	\input{tex/anotherfile}
+\end{document}
